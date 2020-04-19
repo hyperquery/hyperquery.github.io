@@ -2,17 +2,29 @@
   "name": "hyperquery-prototype",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://hyperquery.github.io",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
+    "bootstrap": "^4.4.1",
+    "gh-pages": "^2.2.0",
+    "node-sass": "^4.13.1",
+    "qs": "^6.9.3",
     "react": "^16.13.1",
+    "react-bootstrap": "^1.0.0",
+    "react-debounce-input": "^3.2.2",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1"
+    "react-innertext": "^1.1.5",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.4.1",
+    "split-string": "^6.1.0"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b master -d build",
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "PUBLIC_URL=https://hyperquery.github.io/ react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

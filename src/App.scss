@@ -1,0 +1,20 @@
+$font-family-sans-serif: "Helvetica Neue", Helvetica, sans-serif;
+$font-family-monospace: Monaco, Consolas, "Lucida Console", monospace;
+
+@import "~bootstrap/scss/bootstrap";
+
+button.disabled {
+  pointer-events: none;
+}
+
+.query-preview {
+  color: $cyan;
+}
+
+.dynamic {
+  color: $pink;
+}
+
+.static {
+  color: $purple;
+}

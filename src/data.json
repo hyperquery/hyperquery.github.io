@@ -1,0 +1,236 @@
+{
+  "themes": {
+    "f": "feminist",
+    "q": "queer",
+    "r": "antiracist",
+    "c": "post/decolonial",
+    "d": "disability/crip",
+    "e": "political-economic"
+  },
+  "languages": {
+    "de": {
+      "name": "Deutsch",
+      "name_en": "German",
+      "terms": {
+        "f": {
+          "include": ["Feminismus"],
+          "exclude": []
+        },
+        "q": {
+          "include": ["Queer", "Transgender", "Gender", "Geschlecht"],
+          "exclude": []
+        },
+        "r": {
+          "include": ["Rassismus"],
+          "exclude": []
+        },
+        "c": {
+          "include": ["Dekoloniale", "Postkoloniale"],
+          "exclude": []
+        },
+        "d": {
+          "include": ["Behinderung"],
+          "exclude": []
+        },
+        "e": {
+          "include": ["Kapitalismus", "Neoliberalismus"],
+          "exclude": []
+        }
+      }
+    },
+    "en": {
+      "name": "English",
+      "name_en": "English",
+      "terms": {
+        "f": {
+          "include": ["feminism"],
+          "exclude": []
+        },
+        "q": {
+          "include": ["queer", "transgender", "gender"],
+          "exclude": ["deviance"]
+        },
+        "r": {
+          "include": ["racism", "\"critical race\""],
+          "exclude": ["\"race relations\""]
+        },
+        "c": {
+          "include": ["decolonial", "postcolonial"],
+          "exclude": []
+        },
+        "d": {
+          "include": ["ableism", "crip", "disability"],
+          "exclude": []
+        },
+        "e": {
+          "include": ["capitalism", "neoliberalism"],
+          "exclude": []
+        }
+      }
+    },
+    "es": {
+      "name": "Español",
+      "name_en": "Spanish",
+      "terms": {
+        "f": {
+          "include": ["feminismo"],
+          "exclude": []
+        },
+        "q": {
+          "include": ["queer", "cuir", "transgénero", "\"estudios de género\""],
+          "exclude": []
+        },
+        "r": {
+          "include": ["racismo"],
+          "exclude": []
+        },
+        "c": {
+          "include": ["descolonial", "decolonial", "poscolonial"],
+          "exclude": []
+        },
+        "d": {
+          "include": ["capacitismo", "crip", "discapacidad"],
+          "exclude": []
+        },
+        "e": {
+          "include": ["capitalismo", "neoliberalismo"],
+          "exclude": []
+        }
+      }
+    },
+    "fr": {
+      "name": "Français",
+      "name_en": "French",
+      "terms": {
+        "f": {
+          "include": ["féminisme"],
+          "exclude": []
+        },
+        "q": {
+          "include": ["queer", "transgenre", "\"études de genre\""],
+          "exclude": []
+        },
+        "r": {
+          "include": ["racisme"],
+          "exclude": []
+        },
+        "c": {
+          "include": ["colonialisme"],
+          "exclude": []
+        },
+        "d": {
+          "include": ["handicap"],
+          "exclude": []
+        },
+        "e": {
+          "include": ["capitalisme", "néolibéralisme"],
+          "exclude": []
+        }
+      }
+    },
+    "ja": {
+      "name": "日本語",
+      "name_en": "Japanese",
+      "terms": {
+        "f": {
+          "include": ["フェミニズム"],
+          "exclude": []
+        },
+        "q": {
+          "include": ["クィア"],
+          "exclude": []
+        },
+        "r": {
+          "include": ["人種"],
+          "exclude": []
+        },
+        "c": {
+          "include": ["ポストコロニアル"],
+          "exclude": []
+        },
+        "d": {
+          "include": ["障害"],
+          "exclude": []
+        },
+        "e": {
+          "include": ["資本主義", "新自由主義"],
+          "exclude": []
+        }
+      }
+    },
+    "pt": {
+      "name": "Português",
+      "name_en": "Portuguese",
+      "terms": {
+        "f": {
+          "include": ["feminismo"],
+          "exclude": []
+        },
+        "q": {
+          "include": ["queer", "cuir", "transgênero", "\"estudos de gênero\""],
+          "exclude": []
+        },
+        "r": {
+          "include": ["racismo"],
+          "exclude": []
+        },
+        "c": {
+          "include": ["decolonial", "descolonial", "pós-colonial"],
+          "exclude": []
+        },
+        "d": {
+          "include": ["capacitismo", "crip", "deficiência"],
+          "exclude": []
+        },
+        "e": {
+          "include": ["capitalismo", "neoliberalismo"],
+          "exclude": []
+        }
+      }
+    },
+    "ru": {
+      "name": "Русский",
+      "name_en": "Russian",
+      "terms": {
+        "f": {
+          "include": ["феминизм"],
+          "exclude": []
+        },
+        "q": {
+          "include": ["Гендерные", "LGBT"],
+          "exclude": []
+        },
+        "r": {
+          "include": ["расизм"],
+          "exclude": []
+        },
+        "c": {
+          "include": ["колониализм"],
+          "exclude": []
+        },
+        "d": {
+          "include": ["инвалид"],
+          "exclude": []
+        },
+        "e": {
+          "include": ["капитализм", "неолиберализм"],
+          "exclude": []
+        }
+      }
+    }
+  },
+  "databases": {
+    "worldcat": {
+      "name": "Worldcat",
+      "base_url": "https://www.worldcat.org/search?qt=worldcat_org_all&q="
+    },
+    "mit": {
+      "name": "MIT Libraries",
+      "base_url": "https://mit.on.worldcat.org/search?databaseList=&queryString="
+    },
+    "harvard": {
+      "name": "Harvard Library",
+      "base_url": "https://hollis.harvard.edu/primo-explore/search?tab=everything&search_scope=everything&vid=HVD2&query=any,contains,"
+    }
+  }
+}
