@@ -583,6 +583,10 @@ class SaveDefaultsBar extends Component {
     return null;
   }
 
+  handleFocus(event) {
+    event.target.select();
+  }
+
   render() {
     let languageIds = [];
     for (let id in data.languages) {
@@ -599,6 +603,7 @@ class SaveDefaultsBar extends Component {
         <input
           value={path}
           onChange={this.handleChange}
+          onFocus={this.handleFocus}
           type="text"
           className="form-control text-monospace"
         />
