@@ -177,7 +177,7 @@ class Home extends Component {
             }, () => {
               this.updateSearchQuery();
             });
-          } else {
+          } else if (!separatePage) {
             this.consultWiktionary(term, true);
           }
         },
