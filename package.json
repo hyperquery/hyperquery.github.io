@@ -24,7 +24,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -b master -d build",
     "start": "react-scripts start",
-    "build": "PUBLIC_URL=https://hyperquery.github.io/ react-scripts build",
+    "build": "PUBLIC_URL=https://hyperquery.github.io react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

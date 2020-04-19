@@ -590,7 +590,7 @@ class SaveDefaultsBar extends Component {
         languageIds.push(id);
       }
     }
-    let path = process.env.PUBLIC_URL + "?theme=" + (this.props.selectedTheme || "") + "&languages=" + languageIds.join(",") + "&database=" + (this.props.selectedDatabase || "");
+    let path = process.env.PUBLIC_URL + "/?theme=" + (this.props.selectedTheme || "") + "&languages=" + languageIds.join(",") + "&database=" + (this.props.selectedDatabase || "");
     return (
       <div className="input-group input-group-sm mt-3">
         <div className="input-group-prepend">
