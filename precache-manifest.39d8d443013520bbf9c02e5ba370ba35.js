@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1ec83073a38ac534effbe62303cc8e83",
+    "revision": "769bb4957e3e83f3430493654e8efe33",
     "url": "https://hyperquery.github.io/index.html"
   },
   {
-    "revision": "4a26f0998711d4a5330c",
+    "revision": "92cf2f23a02b7a04d266",
     "url": "https://hyperquery.github.io/static/css/main.5d2f9616.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "https://hyperquery.github.io/static/js/2.1cca3c1d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4a26f0998711d4a5330c",
-    "url": "https://hyperquery.github.io/static/js/main.9d3d39ec.chunk.js"
+    "revision": "92cf2f23a02b7a04d266",
+    "url": "https://hyperquery.github.io/static/js/main.6f601eed.chunk.js"
   },
   {
     "revision": "75610eb6c3a0c358c429",
