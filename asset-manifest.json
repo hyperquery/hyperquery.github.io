@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "https://hyperquery.github.io/static/css/main.5d2f9616.chunk.css",
-    "main.js": "https://hyperquery.github.io/static/js/main.cce4f36a.chunk.js",
-    "main.js.map": "https://hyperquery.github.io/static/js/main.cce4f36a.chunk.js.map",
+    "main.js": "https://hyperquery.github.io/static/js/main.b0ee8bdb.chunk.js",
+    "main.js.map": "https://hyperquery.github.io/static/js/main.b0ee8bdb.chunk.js.map",
     "runtime-main.js": "https://hyperquery.github.io/static/js/runtime-main.fbf14da4.js",
     "runtime-main.js.map": "https://hyperquery.github.io/static/js/runtime-main.fbf14da4.js.map",
     "static/js/2.1cca3c1d.chunk.js": "https://hyperquery.github.io/static/js/2.1cca3c1d.chunk.js",
     "static/js/2.1cca3c1d.chunk.js.map": "https://hyperquery.github.io/static/js/2.1cca3c1d.chunk.js.map",
     "index.html": "https://hyperquery.github.io/index.html",
-    "precache-manifest.e89ec3c97931ec506050fdac0a4b8b39.js": "https://hyperquery.github.io/precache-manifest.e89ec3c97931ec506050fdac0a4b8b39.js",
+    "precache-manifest.6dd0950c51a0cdfaebc9dc65fa6216aa.js": "https://hyperquery.github.io/precache-manifest.6dd0950c51a0cdfaebc9dc65fa6216aa.js",
     "service-worker.js": "https://hyperquery.github.io/service-worker.js",
     "static/css/main.5d2f9616.chunk.css.map": "https://hyperquery.github.io/static/css/main.5d2f9616.chunk.css.map",
     "static/js/2.1cca3c1d.chunk.js.LICENSE.txt": "https://hyperquery.github.io/static/js/2.1cca3c1d.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.fbf14da4.js",
     "static/js/2.1cca3c1d.chunk.js",
     "static/css/main.5d2f9616.chunk.css",
-    "static/js/main.cce4f36a.chunk.js"
+    "static/js/main.b0ee8bdb.chunk.js"
   ]
 }
