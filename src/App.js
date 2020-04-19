@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Switch,
   Route,
   Link
@@ -590,7 +590,7 @@ class SaveDefaultsBar extends Component {
         languageIds.push(id);
       }
     }
-    let path = process.env.PUBLIC_URL + "/?theme=" + (this.props.selectedTheme || "") + "&languages=" + languageIds.join(",") + "&database=" + (this.props.selectedDatabase || "");
+    let path = process.env.PUBLIC_URL + "/#/?theme=" + (this.props.selectedTheme || "") + "&languages=" + languageIds.join(",") + "&database=" + (this.props.selectedDatabase || "");
     return (
       <div className="input-group input-group-sm mt-3">
         <div className="input-group-prepend">
@@ -625,28 +625,30 @@ class SearchQueryPanel extends Component {
   }
 }
 
-function About() {
-  return (
-    <div className="container">
-      <div className="row">
-        <div className="col-md-6 mt-3 mb-3">
-          <h2>About</h2>
-          <p><Link to="/">Hyperquery</Link> is an experimental search tool for academic literature. Its purpose is to facilitate searching across linguistic barriers for scholarly works that engage with counterhegemonic intellectual traditions.</p>
-          <p>We welcome questions and suggestions, as well as contributions of curated terms in any language. Contact us at <a href="mailto:hyperquery@mit.edu">hyperquery@mit.edu</a>.</p>
-          <h4>How it works</h4>
-          <ul>
-            <li>Search terms are case sensitive. For example, the tool finds translations for <code className="dynamic">biology</code> but not for <code className="dynamic">Biology</code>, and for <code className="dynamic">Soviet</code> but not for <code className="dynamic">soviet</code>.</li>
-            <li>Search terms should be separated by spaces, for example <code className="dynamic">modernism architecture utopia</code>.</li>
-            <li>A search term may consist of multiple words inside quotes, for example <code className="dynamic">"Turing machine"</code>.</li>
-            <li>Automatic translations are provided by <a href="https://www.wiktionary.org/">Wiktionary</a>.</li>
-            <li>At this time, search terms should be in English for automatic translations to appear. We intend to support more languages in the future, but non-English editions of Wiktionary have significantly less translations available.</li>
-            <li>The tool supports both the inclusion and the exclusion of curated terms. For example, the tool may search for works that include the term <code className="static">"critical race"</code> but that exclude <code className="static">"race relations"</code>, since the latter tends to pick out outdated literature (note the operator <code className="query-preview">NOT</code>).</li>
-            <li>For a primer on Boolean operators (<code className="query-preview">AND</code>, <code className="query-preview">OR</code>, <code className="query-preview">NOT</code>), see this <a href="https://libguides.mit.edu/c.php?g=175963&p=1158594">guide</a> from the MIT Libraries.</li>
-          </ul>
+class About extends Component {
+  render() {
+    return (
+      <div className="container">
+        <div className="row">
+          <div className="col-md-6 mt-3 mb-3">
+            <h2>About</h2>
+            <p><Link to="/">Hyperquery</Link> is an experimental search tool for academic literature. Its purpose is to facilitate searching across linguistic barriers for scholarly works that engage with counterhegemonic intellectual traditions.</p>
+            <p>We welcome questions and suggestions, as well as contributions of curated terms in any language. Contact us at <a href="mailto:hyperquery@mit.edu">hyperquery@mit.edu</a>.</p>
+            <h4>How it works</h4>
+            <ul>
+              <li>Search terms are case sensitive. For example, the tool finds translations for <code className="dynamic">biology</code> but not for <code className="dynamic">Biology</code>, and for <code className="dynamic">Soviet</code> but not for <code className="dynamic">soviet</code>.</li>
+              <li>Search terms should be separated by spaces, for example <code className="dynamic">modernism architecture utopia</code>.</li>
+              <li>A search term may consist of multiple words inside quotes, for example <code className="dynamic">"Turing machine"</code>.</li>
+              <li>Automatic translations are provided by <a href="https://www.wiktionary.org/">Wiktionary</a>.</li>
+              <li>At this time, search terms should be in English for automatic translations to appear. We intend to support more languages in the future, but non-English editions of Wiktionary have significantly less translations available.</li>
+              <li>The tool supports both the inclusion and the exclusion of curated terms. For example, the tool may search for works that include the term <code className="static">"critical race"</code> but that exclude <code className="static">"race relations"</code>, since the latter tends to pick out outdated literature (note the operator <code className="query-preview">NOT</code>).</li>
+              <li>For a primer on Boolean operators (<code className="query-preview">AND</code>, <code className="query-preview">OR</code>, <code className="query-preview">NOT</code>), see this <a href="https://libguides.mit.edu/c.php?g=175963&p=1158594">guide</a> from the MIT Libraries.</li>
+            </ul>
+          </div>
         </div>
       </div>
-    </div>
-  );
+    );
+  }
 }
 
 export default App;
